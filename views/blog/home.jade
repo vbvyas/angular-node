@@ -1,0 +1,15 @@
+extends ../layout
+
+block content
+  div
+    h3 My Blog
+
+    ul.unstyled
+      li
+        a(href='/blog') Blog home
+      li
+        a(href='/blog/new') Create Post
+
+    div(ng-view)
+
+  script(src='angular/js/app.js', type='text/javascript')

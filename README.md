@@ -1,8 +1,7 @@
-=======
 angular-node
 ============
 
-# Setup requirements (Ubuntu):
+## Setup requirements (Ubuntu):
 
 Install mongodb, node.js, express.js, mongoose:
 
